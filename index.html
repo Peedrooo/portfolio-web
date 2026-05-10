@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedro Vitor | SRE & Data Science</title>
+    <meta name="description" content="Portfólio de Pedro Vitor Augusto de Jesus - Site Reliability Engineer e Mestrando em Ciência de Dados na UnB.">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">PV.</div>
+        <ul class="nav-links">
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#experience">Experiência</a></li>
+            <li><a href="#projects">Projetos</a></li>
+            <li><a href="#contact">Contato</a></li>
+        </ul>
+        <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema">
+            <i class="fas fa-moon"></i>
+        </button>
+    </nav>
+
+    <header class="hero section">
+        <div class="hero-content fade-in">
+            <h2 class="greeting">Olá, eu sou</h2>
+            <h1 class="name">Pedro Vitor de Jesus</h1>
+            <h3 class="role">Site Reliability Engineer @ Banco do Brasil</h3>
+            <p class="summary">
+                Mestrando em Computação Aplicada (Ciência de Dados) na UnB. Apaixonado por Observabilidade, Inteligência Artificial e construir sistemas altamente confiáveis.
+            </p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn btn-primary">Ver Projetos</a>
+                <a href="#contact" class="btn btn-outline">Fale Comigo</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="about section fade-in">
+        <h2 class="section-title">Sobre Mim</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>Sou Engenheiro de Software formado pela <strong>Universidade de Brasília (UnB)</strong> e atualmente estou cursando o <strong>Mestrado em Computação Aplicada, na área de Ciência de Dados</strong>, também pela UnB.</p>
+                <p>Com uma sólida trajetória como Pesquisador de Inteligência Artificial e Desenvolvedor Backend, hoje atuo como <strong>Site Reliability Engineer (SRE)</strong> no Centro de Excelência do Banco do Brasil. Meu foco está em garantir a confiabilidade, desempenho e escalabilidade de sistemas críticos, unindo práticas de desenvolvimento ágil com infraestrutura.</p>
+                <div class="skills-container">
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">Machine Learning</span>
+                    <span class="skill-tag">SRE</span>
+                    <span class="skill-tag">Observability</span>
+                    <span class="skill-tag">FastAPI</span>
+                    <span class="skill-tag">PostgreSQL</span>
+                    <span class="skill-tag">Docker</span>
+                    <span class="skill-tag">Git</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="experience section fade-in">
+        <h2 class="section-title">Experiência</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Assessor III TI UOS / SRE</h3>
+                    <h4>Banco do Brasil</h4>
+                    <p class="timeline-date">Abril 2025 - Presente</p>
+                    <p>Atuação como Engenheiro de Confiabilidade de Site no Centro de Excelência, focando em métricas de observabilidade e infraestrutura escalável.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Pesquisador de Inteligência Artificial</h3>
+                    <h4>AI.lab UnB</h4>
+                    <p class="timeline-date">Abril 2023 - Setembro 2024</p>
+                    <p>Pesquisa com algoritmos não supervisionados, processamento de linguagem natural (NLP) e tratamento massivo de dados.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Pesquisador de IA</h3>
+                    <h4>Dell Lead</h4>
+                    <p class="timeline-date">Outubro 2022 - Janeiro 2024</p>
+                    <p>Desenvolvimento e validação de modelos de ML em Python, avaliando performance e disponibilizando modelos como microsserviços.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Engenheiro de Software</h3>
+                    <h4>Ellite Corp.</h4>
+                    <p class="timeline-date">Fevereiro 2024 - Março 2024</p>
+                    <p>Automação em Selenium para extração de dados de precatórios na plataforma PJe, otimizando processos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects section fade-in">
+        <h2 class="section-title">Projetos em Destaque</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-content">
+                    <h3>Ada (TCC)</h3>
+                    <p>Algoritmo para satisfação de restrições voltado para a geração automatizada de grade docente na Universidade de Brasília.</p>
+                    <div class="project-techs">
+                        <span>Python</span>
+                        <span>Otimização</span>
+                    </div>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/Peedrooo/Ada" target="_blank"><i class="fab fa-github"></i> Código</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-content">
+                    <h3>Turing / Personality Prediction</h3>
+                    <p>Modelos de Redes Neurais e Machine Learning para reconhecimento de tendências e predição de personalidade.</p>
+                    <div class="project-techs">
+                        <span>Jupyter</span>
+                        <span>Deep Learning</span>
+                        <span>NLP</span>
+                    </div>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/Peedrooo/Personality_Prediction_Model" target="_blank"><i class="fab fa-github"></i> Código</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-content">
+                    <h3>SLACP Automations</h3>
+                    <p>Automação robusta com Selenium para mineração e extração sistemática de dados de precatórios processuais.</p>
+                    <div class="project-techs">
+                        <span>Python</span>
+                        <span>Selenium</span>
+                        <span>Web Scraping</span>
+                    </div>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/Peedrooo/SLACP" target="_blank"><i class="fab fa-github"></i> Código</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-content">
+                    <h3>Dash Ecommerce</h3>
+                    <p>Desenvolvimento focado em lógica de programação e criação de dashboards interativos para análise de e-commerce.</p>
+                    <div class="project-techs">
+                        <span>Jupyter</span>
+                        <span>Data Analytics</span>
+                    </div>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/Peedrooo/Dash_Ecommerce" target="_blank"><i class="fab fa-github"></i> Código</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact section fade-in">
+        <h2 class="section-title">Vamos Conversar?</h2>
+        <p>Estou sempre aberto a novas conexões, discussões sobre tecnologia ou oportunidades.</p>
+        <div class="contact-links">
+            <a href="mailto:pedrovitora.jesus@gmail.com" class="btn btn-outline"><i class="fas fa-envelope"></i> Email</a>
+            <a href="https://www.linkedin.com/in/pedro-jesus-2709" target="_blank" class="btn btn-outline"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            <a href="https://github.com/Peedrooo" target="_blank" class="btn btn-outline"><i class="fab fa-github"></i> GitHub</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Pedro Vitor Augusto de Jesus. Construído com dedicação.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
