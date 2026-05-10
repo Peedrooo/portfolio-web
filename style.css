@@ -469,9 +469,6 @@ footer {
     .role { font-size: 1.5rem; }
     .nav-links { display: none; } /* Simple mobile menu hiding for brevity */
     .section { padding: 4rem 5% 2rem; }
-<<<<<<< Updated upstream
-}
-=======
     
     .hero {
         flex-direction: column;
@@ -487,4 +484,3 @@ footer {
         margin-top: 2rem;
     }
 }
->>>>>>> Stashed changes
