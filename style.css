@@ -190,11 +190,11 @@ a {
 
 /* Hero Section */
 .hero {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 80px;
+    padding-top: 100px;
     gap: 2rem;
 }
 
@@ -475,6 +475,7 @@ footer {
         flex-direction: column;
         justify-content: center;
         text-align: center;
+        padding-top: 120px;
     }
     .cta-buttons {
         justify-content: center;
